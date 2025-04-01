@@ -68,7 +68,7 @@ $attendance_records = $attendance_stmt->fetchAll(PDO::FETCH_ASSOC);
   <div class="dashboard-container">
     <div class="d-flex justify-content-between align-items-center mb-4">
       <h2>Welcome, <?php echo htmlspecialchars($user['name']); ?>!</h2>
-    <form method="POST" action="register.php"> 
+    <form method="POST" action="logout.php"> 
         <button type="submit" class="btn btn-danger" >Logout</button>
       </form>
     </div>
